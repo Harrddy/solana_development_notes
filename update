@@ -1,0 +1,2 @@
+#!/bin/zsh
+pdflatex solana_notes.tex && git add solana_notes.pdf && rm -rf *.log && rm -rf *.aux 
